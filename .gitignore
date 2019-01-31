@@ -1,3 +1,4 @@
 ##exclude virtual environment 
-/env
-/env/*
+.env
+.idea/
+.vscode/
