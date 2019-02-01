@@ -1,13 +1,16 @@
 <html>
 <head>
+<title>Politico</title>
 <link rel="stylesheet" type="text/css" href="css/mycss.css"/>
 </head>
 <body>
 <ul>
+ <li><a class="active" >Politico</a>
   <li><a class="active" href="#user">User</a>
    <ul class="dropdown">
       <li><a href="signup.html">Signup</a></li> 
-      <li><a href="specificoffice.html">Specific office</a></li>           
+      <li><a href="specificoffice.html">Specific office</a></li> 
+       <li><a href="viewparties.html">view parties</a></li>           
     </ul>
   </li> 
   <li><a href="#admin">Admin</a>
@@ -17,18 +20,24 @@
       
     </ul>
   </li>
-  <li><a href="#politician">Politician</a></li>
+  <li><a href="#politician">Politician</a>
+  <ul class="dropdown">
+      <li><a href="politicianInterest.html">Politician Office</a></li>
+      
+      
+    </ul>
+  </li>
   <li style="float:right"><a href="#logout">Logout</a></li>
 </ul>
 <form action="" class="borderedbox">
 <h2>Political Forum </h2>
   <div class="insheight">  
     <label for="uname"><b>Username</b></label>
-    <input type="text"   name="uname" required class="Username">
+    <input type="text" placeholder="Enter Username"  name="uname" required class="Username">
   </div >
   <div class="insheight">  
     <label for="uname"><b>Id number</b></label>
-    <input type="text"   name="uname" required class="Username">
+    <input type="text"  placeholder="Enter ID number" name="uname" required class="Username">
   </div >
    <div class="inputheight">
     <label for="pswd"><b>Password</b></label>
@@ -41,12 +50,7 @@
     <div class="duobuttons insheight">
    <div class="btnlogin "><a href="signin.html"><strong>Login</strong></a></div>
    <div class="btnregister"><a href="signup.html"><strong>register</strong></a></div>
-   </div> 
-   
-        
-  
-
-    <span class="pswd">Forgot your password? <a href="#">Click here</a></span>
+   </div> <span class="pswd">Forgot your password? <a href="psdrecovery.html">Click here</a></span>
   </div>
 </form>
 
