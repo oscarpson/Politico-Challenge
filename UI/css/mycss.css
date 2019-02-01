@@ -84,6 +84,7 @@ body {
   flex: 25%;  
   
 }
+/*Display navigation bar and dropdown menu*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -107,6 +108,26 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+ul li a:hover{
+        color: #fff;
+        background: #939393;
+ }
+ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+     background: #000000;
+    display: none;
+   position: absolute;
+   z-index: 999;
+    left: 0;
+  }
+ ul li:hover ul.dropdown{
+   display: block; /* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: inline-block;
+    }
+
 .duobuttons{
   display: -ms-flexbox;  
   display: flex;

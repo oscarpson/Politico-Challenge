@@ -4,10 +4,21 @@
 </head>
 <body>
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">Admin</a></li>
-  <li><a href="#contact">Politician</a></li>
-  <li style="float:right"><a href="#about">Logout</a></li>
+  <li><a class="active" href="#user">User</a>
+   <ul class="dropdown">
+      <li><a href="signup.html">Signup</a></li> 
+      <li><a href="specificoffice.html">Specific office</a></li>           
+    </ul>
+  </li> 
+  <li><a href="#admin">Admin</a>
+  <ul class="dropdown">
+      <li><a href="createOffice.html">Create office</a></li>
+      <li><a href="createParty.html">Political party</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="#politician">Politician</a></li>
+  <li style="float:right"><a href="#logout">Logout</a></li>
 </ul>
 
 
@@ -23,7 +34,7 @@
     <input type="text" placeholder="Enter ministry name" name="mns" required class="Username">
     </div>
     <div class="duobuttons insheight">
-   <div class="btnlogin ">Login</div> 
+   <div class="btnlogin ">Add office</div> 
    </div> 
    
   </div>
