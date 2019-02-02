@@ -11,7 +11,27 @@ body {
   background-attachment: fixed;
 
 }
+table {
+  border-collapse: collapse;
+}
 
+/* td { border: 0px solid #b15825; } */
+td { border: 1px solid #b15825;
+    border-spacing: 0px}
+td img{
+  width: 100px;
+  height: 100px;
+}
+.bordertable
+{
+  background:white;
+  width:750px;
+  border-radius:6px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: #b15825 4px solid; 
+}
 /* row for politicians running form a specific office*/
 .prow {
   display: -ms-flexbox; 
