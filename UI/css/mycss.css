@@ -62,8 +62,7 @@ td img{
 }  
 .blockH4{
   opacity: 0.8;
-  filter: alpha(opacity=50);
-  
+  filter: alpha(opacity=50);  
   color: white;
   text-align: center;
   padding: 14px 16px;
