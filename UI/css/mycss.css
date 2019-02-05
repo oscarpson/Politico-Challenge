@@ -11,6 +11,13 @@ body {
   background-attachment: fixed;
 
 }
+a{
+  text-decoration: none;
+}
+.radiobtn{
+  width: 32px; height: 32px;  
+  background-color: #ffa500;
+}
 table {
   border-collapse: collapse;
 }
@@ -81,14 +88,15 @@ td img{
 }
 .btnlogin {
   /* display: inline; */
-  background:#2ecc71;
+  background:#b15825;
   max-width:120px;
   padding-top:5px;
   padding-bottom:5px;
   margin-left: 10px;
   color:white;
+  
   border-radius:4px;
-  border: #27ae60 1px solid; 
+  border: #271307 1px solid; 
   -ms-flex: 25%;  
   flex: 25%;
 }
@@ -97,13 +105,13 @@ td img{
 .btnregister {
   /* display: inline; */
   float:right;
-  background:#3498db;
+  background:#b15825;
   max-width:120px;  
   padding-top:5px;
   padding-bottom:5px;
   color:white;
   border-radius:4px;  
-  border: #2980b9 1px solid;
+  border: #271307 1px solid;
   -ms-flex: 25%;  
   flex: 25%;
   margin-right: 10px;
@@ -135,7 +143,7 @@ li a {
 
 ul li a:hover{
         color: #fff;
-        background: #939393;
+        background: #753710;
  }
 ul li ul.dropdown{
     min-width: 100%; /* Set width of the dropdown */
@@ -165,7 +173,7 @@ ul li ul.dropdown{
   border-bottom: #ccc 2px solid;
   padding: 8px;
   width:250px;
-  color:#AAAAAA;
+  color:#000000;
   margin-top:10px;
   font-size:1em;
   border-radius:4px;
